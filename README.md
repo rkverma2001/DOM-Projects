@@ -1,0 +1,1 @@
+This is the folder for all the projects related to dom manipulation.
