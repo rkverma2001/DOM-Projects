@@ -27,4 +27,4 @@ function randomGenerator(){
 }
 
 
-randomGenerator();
+// randomGenerator();
