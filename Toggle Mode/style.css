@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+
+body {
+  color: black;
+  background-color: white;
+  font-family: "Lemon", serif;
+  transition: background-color 0.5s, color 0.5s;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 65px auto;
+  width: 150px;
+  height: 70px;
+  background-color: black;
+  border-radius: 35px;
+  padding: 0 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+#circle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 0.5s, background-color 0.5s;
+  will-change: transform;
+}
+
+.dark-mode {
+  transform: translateX(calc(100% + 50px));
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin: 100px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin: 90px auto;
+  text-align: center;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
