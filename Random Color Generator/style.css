@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Salsa', cursive;
+    font-size: 3em;
+}
+
+.colorGenerator {
+    background-color: bisque;
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+
+}
+
+#random-color-generator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
