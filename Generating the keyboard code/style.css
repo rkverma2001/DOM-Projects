@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+
+#keyboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-size: 1.2rem;
+  text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);
+}
+
+.keymod {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 150px;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  color: #0fc668c4;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 5px rgba(128, 0, 0, 1);
+}
+
+#help {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 500;
+  width: 130px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
