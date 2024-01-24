@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./image/digiwall.jpg");
+  background-size: cover;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  color: white;
+}
+
+.clock {
+  height: 40%;
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.149);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  padding: 2rem;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 3.5rem;
+  color: rgba(0, 0, 0, 0.69);
+  margin-bottom: 25px;
+}
+
+.clock .hours,
+.minutes,
+.seconds {
+  height: 170px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.393);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 0.4rem;
+}
+
+.clock .hour,
+.minute,
+.second {
+  font-weight: 600;
+  font-size: 4.1rem;
+}
+
+.clock .am-pm {
+  position: absolute;
+  bottom: 62px;
+  right: 30px;
+  background-color: rgba(0, 0, 0, 0.47);
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+#hou,
+#min,
+#sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  height: 45px;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.59);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-weight: 900;
+}
+
+.hour,
+.minute,
+.second {
+  margin-top: 31px;
+}
