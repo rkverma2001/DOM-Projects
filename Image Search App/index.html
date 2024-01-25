@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Image Search App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for Images..."
+        />
+        <button onclick="searchImages()" class="button-64" role="button">
+          <span class="text">Search</span>
+        </button>
+      </div>
+      <div class="image-container" id="imageContainer"></div>
+      <button
+        class="show-more-btn"
+        id="showMoreBtn"
+        onclick="showMoreImages()"
+      >
+        Show More
+      </button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

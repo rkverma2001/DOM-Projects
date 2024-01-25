@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 60%;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.image-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
+
+.image-description {
+  padding: 10px;
+  font-style: italic;
+}
